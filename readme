@@ -1,3 +1,6 @@
 foundationOne.py    测试文件，没太大用，跟openpyxl没啥关系
 simpleUsage.py  Simple Usage章节
 learnPandas.py  学习Pandas模块
+workPandasNumpy.py  使用pandas和numpy
+charts.py  图表
+readOnlyMode.py     只读模式
