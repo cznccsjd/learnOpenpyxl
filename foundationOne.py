@@ -8,22 +8,17 @@ from openpyxl import Workbook
 from locale import *
 
 
-file = r'D:\Documents\work\工作记录\180523 缺席代课报表\teacher.xlsx'
-# print(file)
-# 打开excel
+# file = r'D:\Documents\work\工作记录\180523 缺席代课报表\teacher.xlsx'
+# # 打开excel
 # wb = openpyxl.load_workbook(file,guess_types=True)
-# print(wb)
-# 获取当前的表格，判断是否有sheet页：teacher_info_new，如果有，不处理文档，如果没有，处理文档
-# 后续倒腾
+# # 获取当前的表格，判断是否有sheet页：teacher_info_new，如果有，不处理文档，如果没有，处理文档
 # wss = wb.worksheets
-# # print(wss)
-#
-# wb.create_sheet('teacher_info_new')
-# wss = wb.worksheets
-# print(wss)
-#
-# for sheet in wb:
-#     print(sheet)
+# if 'teacher_info_new' not in wss:
+#     wb.create_sheet('teacher_info_new')
+# else:
+#     pass
+
+
 # # 获取当前活跃的worksheet
 # ws = wb.active
 # print(ws)
@@ -112,8 +107,8 @@ file = r'D:\Documents\work\工作记录\180523 缺席代课报表\teacher.xlsx'
 
 
 ### 保存文件    ###
-wb = openpyxl.Workbook()
-wb.save('D:\Desktop\helo.xlsx')
+# wb = openpyxl.Workbook()
+# wb.save('D:\Desktop\helo.xlsx')
 
 
 # 关闭workbook对象
