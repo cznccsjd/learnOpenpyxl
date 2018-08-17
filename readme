@@ -4,4 +4,7 @@ learnPandas.py  学习Pandas模块
 workPandasNumpy.py  使用pandas和numpy
 charts.py  图表
 readOnlyMode.py     只读模式
+writeOnlyMode.py    只写模式
+workingWithStyle.py     使用样式
+addtionalProperties.py  附加工作表属性
 copy.py     数据拷贝（自己查找资料写的）
