@@ -7,4 +7,8 @@ readOnlyMode.py     只读模式
 writeOnlyMode.py    只写模式
 workingWithStyle.py     使用样式
 addtionalProperties.py  附加工作表属性
+conditionalFormatting.py    条件格式化
+usingFiltersandSorts.py     使用过滤器和排序
+worksheetTables.py      工作表表格
+validatingCells.py      验证单元格
 copy.py     数据拷贝（自己查找资料写的）
